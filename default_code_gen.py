@@ -39,3 +39,5 @@ df['default_code'] = df['name'].apply(generate_default_code)
 
 # Save the updated DataFrame back to a CSV file
 df.to_csv('Code_HE_PFE_updated.csv', index=False)
+
+print("Default codes generated successfully!")
